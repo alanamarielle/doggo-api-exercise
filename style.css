@@ -1,0 +1,28 @@
+body {
+  background-color: #788d33;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h1 {
+  color: #444741;
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+}
+.doggos {
+  width: 75vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+img {
+  max-width: 400px;
+  margin: 10px;
+}
+.add-doggo {
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 80px;
+}
